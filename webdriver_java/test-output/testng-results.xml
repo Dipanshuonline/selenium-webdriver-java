@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-16T08:35:07Z" name="Default suite" finished-at="2023-09-16T08:35:19Z" duration-ms="11645">
+    <groups>
+    </groups>
+    <test started-at="2023-09-16T08:35:07Z" name="Default test" finished-at="2023-09-16T08:35:19Z" duration-ms="11645">
+      <class name="alerts.AlertTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:alerts.AlertTests@53045c6c]" started-at="2023-09-16T08:35:07Z" name="setUp" finished-at="2023-09-16T08:35:10Z" duration-ms="3563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertTests@53045c6c]" started-at="2023-09-16T08:35:10Z" name="goHome" finished-at="2023-09-16T08:35:14Z" duration-ms="3482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testAcceptAlert()[pri:0, instance:alerts.AlertTests@53045c6c]" started-at="2023-09-16T08:35:14Z" name="testAcceptAlert" finished-at="2023-09-16T08:35:15Z" duration-ms="1180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcceptAlert -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTests@53045c6c]" started-at="2023-09-16T08:35:15Z" name="recordFailure" finished-at="2023-09-16T08:35:15Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAcceptAlert status=SUCCESS method=AlertTests.testAcceptAlert()[pri:0, instance:alerts.AlertTests@53045c6c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertTests@53045c6c]" started-at="2023-09-16T08:35:15Z" name="goHome" finished-at="2023-09-16T08:35:16Z" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testGetTextFromAlert()[pri:0, instance:alerts.AlertTests@53045c6c]" started-at="2023-09-16T08:35:16Z" name="testGetTextFromAlert" finished-at="2023-09-16T08:35:17Z" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTextFromAlert -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTests@53045c6c]" started-at="2023-09-16T08:35:17Z" name="recordFailure" finished-at="2023-09-16T08:35:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetTextFromAlert status=SUCCESS method=AlertTests.testGetTextFromAlert()[pri:0, instance:alerts.AlertTests@53045c6c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertTests@53045c6c]" started-at="2023-09-16T08:35:17Z" name="goHome" finished-at="2023-09-16T08:35:17Z" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSetInputInAlert()[pri:0, instance:alerts.AlertTests@53045c6c]" started-at="2023-09-16T08:35:17Z" name="testSetInputInAlert" finished-at="2023-09-16T08:35:18Z" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetInputInAlert -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTests@53045c6c]" started-at="2023-09-16T08:35:18Z" name="recordFailure" finished-at="2023-09-16T08:35:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSetInputInAlert status=SUCCESS method=AlertTests.testSetInputInAlert()[pri:0, instance:alerts.AlertTests@53045c6c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.AlertTests@53045c6c]" started-at="2023-09-16T08:35:18Z" name="tearDown" finished-at="2023-09-16T08:35:19Z" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- alerts.AlertTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

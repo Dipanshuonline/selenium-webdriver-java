@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="alerts.AlertTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testAcceptAlert"/>
+          <include name="testGetTextFromAlert"/>
+          <include name="recordFailure"/>
+          <include name="goHome"/>
+          <include name="setUp"/>
+          <include name="testSetInputInAlert"/>
+        </methods>
+      </class> <!-- alerts.AlertTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

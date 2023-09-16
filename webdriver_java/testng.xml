@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="alerts.FileUploadTests"/>
+      <class name="exercises.chapter14.cookies.CookiesTests"/>
+      <class name="javascript.JavaScriptTests"/>
+      <class name="hover.HoverTests"/>
+      <class name="exercises.chapter10.javascript.JavaScriptTests"/>
+      <class name="exercises.chapter9.wait.WaitTests"/>
+      <class name="wait.WaitTests"/>
+      <class name="keys.KeysTests"/>
+      <class name="alerts.AlertTests"/>
+      <class name="frames.FrameTests"/>
+      <class name="exercises.chapter11.windows.WindowTests"/>
+      <class name="base.BaseTests"/>
+      <class name="exercises.chapter4.passwords.ForgotPasswordTests"/>
+      <class name="exercises.chapter7.contextmenu.ContextMenuTests"/>
+      <class name="login.LoginTests"/>
+      <class name="exercises.chapter8.frames.FrameTests"/>
+      <class name="navigation.NavigationTests"/>
+      <class name="exercises.chapter6.slider.SliderTests"/>
+      <class name="dropdown.DropdownTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
